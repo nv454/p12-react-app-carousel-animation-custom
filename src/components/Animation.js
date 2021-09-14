@@ -49,7 +49,7 @@ function Animation() {
                         type="radio"
                         value={item.label}
                         checked={current === item.id}
-                        onChange={onValueChange}
+                        //onChange={onValueChange}
                         onClick={()=>nextSlide(item.id)}
                         />
                         {/* {item.label} */}
@@ -65,7 +65,7 @@ function Animation() {
                     </div>
                 ))}            
             </div>  
-                       
+
         </div>
     )
 }
